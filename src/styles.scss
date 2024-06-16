@@ -1,1 +1,20 @@
-/* You can add global styles to this file, and also import other style files */
+@import "colors";
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+$font-01: "Raleway", sans-serif;
+
+body {
+    background-color: $background-color;
+    color: $text-color;
+    font-family: $font-01;
+}
+
+/* Footer */
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #ffff;
+    text-align: center;
+}
